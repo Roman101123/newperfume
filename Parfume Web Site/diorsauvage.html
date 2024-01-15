@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div class="popup">
+            <div class="popup_body">
+                <p>Войти</p>
+                <form action="">
+                        <input type="text" placeholder="Имя и Фамилия">
+                        <input type="text" placeholder="Пароль">
+                        <input type="text" placeholder="Адрес эл.почты">
+                    <div class="button" onclick="myFn()">Войти</div>
+                </form>
+                <div class="popup_close">&#10006</div>
+            </div>
+    </div>
+        <div class="logo">
+            <a href="index.html">LOGO</a>
+        </div>
+        <div class="searchBox">
+            <input type="text" class="search">
+            <i class="fa fa-search" style="color: white;"></i>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="woman.html">Для женщин</a></li>
+                <li><a href="men.html">Для мужчин</a></li>
+                <li><a href="men.html">Унисекс</a></li>
+                <li class="foo">О нас</li>
+            </ul>
+        </nav> 
+        <ul class="login">
+            <li><a href="#" class="open_popup_btn">Войти</a></li>
+            <li>|</li>
+            <li><a href="cart.html">Корзина</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="item-content">
+            <div class="item-name">Christian Dior Sauvage</div>
+            <hr class="hr-dior-sauvage">
+            <div class="item-img">
+                <img src="diorsauvage.png" alt="" width="100%" height="100%">
+            </div>
+            <div class="item-notes">
+                <span class="item-characteristic">
+                    Тип продукта
+                    <span class="item-characteristic-name">Парфюм</span>
+                </span>
+                <span class="item-characteristic">
+                    Верхние ноты
+                    <span class="item-characteristic-name">Калабрийский бергамот, Перец</span>
+                </span>
+                <span class="item-characteristic">
+                    Средние ноты
+                    <span class="item-characteristic-name">Сычуанский перец, Лаванда, Розовый перец, Ветивер, Пачули, Герань, Элеми</span>
+                </span>
+                <span class="item-characteristic">
+                    Базовые ноты
+                    <span class="item-characteristic-name">Кедр, Лабданум</span>
+                </span>
+                <span class="item-characteristic">
+                    Пол
+                    <span class="item-characteristic-name">Мужской</span>
+                </span>
+                <div class="item-description-btn">Перейти к описанию</div>
+                <hr class="hr-item-description-btn">
+            </div>
+            <div class="item-details">
+                <h1>17 050₽</h1>
+                <a href="cart.html"><button class="cartBtn">В корзину</button></a>
+            </div>
+            <h3 class="h2-diorsauvage-rating">Рейтинг товара</h3>
+            <div class="diorsauvage-rating">
+                <div class="rating-points">
+                    <p class="diorsauvage-points">3.9</p>
+                    <div class="rating-stars">
+                        <div class="stars">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <p class="userRating">Оцените этот товар</p>
+                </div>
+                <div class="rating-scales">
+                    <div class="scales">
+                    <div class="scale">
+                    </div>
+                    <div class="scale">
+                    </div>
+                    <div class="scale" style="border-bottom: 5px solid gold">
+                    </div>
+                    <div class="scale">
+                    </div>
+                    <div class="scale">
+                    </div>
+                </div>
+                <div class="scale-counts">
+                    <h3 class="scale-count">5</h3>
+                    <h3 class="scale-count">4</h3>
+                    <h3 class="scale-count">3</h3>
+                    <h3 class="scale-count">2</h3>
+                    <h3 class="scale-count">1</h3>
+                </div>
+            </div>
+            </div>
+        </div>
+        <section class="section-similar">
+            <h1>Похожие товары</h1> 
+            <hr class="hr-section-similar">
+            <div class="similar-cards">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <a href="diorsauvage.html"><img src="diorsauvage.png" class="card-img-top" alt="..." style="width: 200px; height: 200px;"></a>
+                      <h5 class="card-title">Dior Savauge</h5>
+                      <p class="card-text">199$</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="tomfordlostcherry.png" class="card-img-top" alt="..." style="width: 100px; height: 200px;">
+                      <h5 class="card-title">Tom Ford Lost Cherry</h5>
+                      <p class="card-text">199$</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="tomfordoutwood.png" class="card-img-top" alt="..." style="width: 170px; height: 200px;">
+                      <h5 class="card-title">Tom Ford Out Wood</h5>
+                      <p class="card-text">199$</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="armaniacquadigio.png" class="card-img-top" alt="..." style="width: 170px; height: 200px;">
+                      <h5 class="card-title">Armani Acqua Di Gio</h5>
+                      <p class="card-text">199$</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="1million.png" class="card-img-top" alt="..." style="width: 170px; height: 200px;">
+                      <h5 class="card-title">Armani Acqua Di Gio</h5>
+                      <p class="card-text">199$</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="diorsehomme.png" class="card-img-top" alt="..." style="width: 250px; height: 250px;">
+                      <h5 class="card-title">Armani Acqua Di Gio</h5>
+                      <p class="card-text">199$</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="chanelvalentino.png" class="card-img-top" alt="..." style="width: 250px; height: 250px;">
+                      <h5 class="card-title">Armani Acqua Di Gio</h5>
+                      <p class="card-text">199$</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="versaceeros.png" class="card-img-top" alt="..." style="width: 135px; height: 200px;">
+                      <h5 class="card-title">Armani Acqua Di Gio</h5>
+                      <p class="card-text">199$</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <hr class="hr-section-similar-item-description">
+        <div class="item-description">
+            <div class="item-description-info">
+                <h2>Описание</h2>
+                <p>Sauvage Eau de Toilette Dior, выпущенный в 2015 году, классифицируется как аромат для мужчин и принадлежит семействам Древесные и Восточные. Над ним работал парфюмер Франсуа Демаши. Sauvage Eau de Toilette входит в коллекцию Sauvage.</p>
+            </div>
+            <div class="item-compound">
+                <h2>Состав компазиций</h2>
+                <p>Черный перец и Калабрийский бергамот образуют стартовый аккорд композиции, в сердце ─ Элеми, Герань, Лаванда, Пачули, Розовый перец (красные ягоды), Сычуаньский перец и Ветивер; базу составляют Амброксан, Кедр и Лабданум.</p>
+            </div>
+            <div class="item-country">
+                <h2>Страна-Производитель</h2>
+                <p>Франция</p>
+            </div>
+        </div>
+    </main>
+    <footer style="position: absolute; display: flex; top: 288%;">
+        <div class="pay">
+            <p>Принимаем к оплате:</p>
+            <img src="pay1.png" alt="" width="50px" height="25px">
+            <img src="pay2.png" alt="" width="50px" height="25px">
+            <img src="pay3.png" alt="" width="50px" height="20px">
+        </div>
+        <div class="social">
+            <p>Мы в соц.сетях:</p>
+            <a href="https://vk.com/" target="_blank"><img src="social1.png" alt=""></a>
+            <a href="https://instagram.com/" target="_blank"><img src="social2.png" alt=""></a>
+            <a href="https://web.telegram.org/k/" target="_blank"><img src="social3.png" alt=""></a>
+        </div>
+        <div class="global-footer-info">
+            <div class="help">
+                <h4>Сервис и Помощь</h4>
+                <p>Конфиденциальность</p>
+                <p>Возврат товара</p>
+                <p>Как сделать заказ</p>
+                <p>Способы доставки</p>
+            </div>
+            <div class="about">
+                <h4>О нас</h4>
+                <p>Сертификаты</p>
+                <p>О компании</p>
+                <p>Отзывы</p>
+            </div>
+            <div class="contacts">
+                <h4>Контактная информация</h4>
+                <h5>Адрес</h5>
+                <p>г.Москва,
+                    ул.Рощинская,
+                    д.2,
+                    э.7
+                </p>
+                <h5>Номер телефона</h5>
+                <p>8(800)777777</p>
+                <p>7(915)888888</p>
+            </div> 
+        </div>
+        <hr class="hr-footer">
+        <div class="rights">
+            <p>© logo.ru, 2015–2023</p>
+            <p>Все права защищены</p>
+        </div>
+        
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
